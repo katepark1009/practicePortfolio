@@ -101,6 +101,18 @@ a:focus {
 .navbar-custom .nav li.active a:hover {
   color: white;
 }
+
+.projectimg {
+  height: 100%;
+  width: 100%;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+
+img {
+  height : 300px;
+  width: 300px;
+}
 @media (min-width: 768px) {
   .navbar-custom {
     padding: 20px 0;
