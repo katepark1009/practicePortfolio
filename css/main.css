@@ -4744,7 +4744,7 @@ img {
 .logoimg{
   /* object-fit: cover; */
   width: 18%;
-  border: 1px solid #ea586f;
+  /* border: 1px solid #ea586f; */
 }
 
 .logoimg img{
