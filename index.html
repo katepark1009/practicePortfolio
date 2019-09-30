@@ -1,172 +1,649 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-
+  <head>
+    <!-- Required meta tags -->
     <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="">
-    <meta name="author" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <title></title>
+    <title>Kate Park</title>
 
-    <!-- Bootstrap Core CSS -->
-    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css" >
+    <!-- Font -->
+    <link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
+    <!-- Slicknav -->
+    <link rel="stylesheet" type="text/css" href="css/slicknav.css">
+    <!-- Owl carousel -->
+    <link rel="stylesheet" type="text/css" href="css/owl.carousel.css">
+    <link rel="stylesheet" type="text/css" href="css/owl.theme.css">
+    <!-- Animate -->
+    <link rel="stylesheet" type="text/css" href="css/animate.css">
+    <!-- Main Style -->
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+    <!-- Extras Style -->
+    <link rel="stylesheet" type="text/css" href="css/extras.css">
+    <!-- Responsive Style -->
+    <link rel="stylesheet" type="text/css" href="css/responsive.css">
 
-    <!-- Custom Fonts -->
-    <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
-    <link href="https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic" rel="stylesheet" type="text/css">
-    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+  </head>
+  <body>
 
-    <!-- Theme CSS -->
-    <link href="css/grayscale.min.css" rel="stylesheet">
-    <link href="css_2/style.css" rel="stylesheet">
-
-    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-    <!--[if lt IE 9]>
-        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
-    <![endif]-->
-
-</head>
-
-<body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
-
-    <!-- Navigation -->
-    <nav class="navbar navbar-custom navbar-fixed-top" role="navigation">
+    <!-- Header Area wrapper Starts -->
+    <header id="header-wrap">
+      <!-- Navbar Start -->
+      <nav class="navbar navbar-expand-lg fixed-top scrolling-navbar indigo">
         <div class="container">
-            <div class="navbar-header">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-main-collapse">
-                    Menu <i class="fa fa-bars"></i>
-                </button>
-                <a class="navbar-brand page-scroll" href="#page-top">
-                    <i class="fa fa-play-circle"></i> <span class="light"></span> 
+          <!-- Brand and toggle get grouped for better mobile display -->
+          <div class="navbar-header">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#main-navbar" aria-controls="main-navbar" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+              <span class="icon-menu"></span>
+              <span class="icon-menu"></span>
+              <span class="icon-menu"></span>
+            </button>
+            <a href="index.html" class="navbar-brand ">
+              <div class="logoimg">
+              <img src="img/logo.png" alt="">
+            </div>
+            </a>
+          </div>
+          <div class="collapse navbar-collapse" id="main-navbar">
+            <ul class="navbar-nav mr-auto w-100 justify-content-end clearfix">
+              <li class="nav-item active">
+                <a class="nav-link" href="#sliders">
+                  Home
                 </a>
-            </div>
+              </li>
+              <li class="nav-item">
+                  <a class="nav-link" href="#portfolio">
+                    Portfolio
+                  </a>
+                </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#services">
+                  Skills
+                </a>
+              </li>
 
-            <!-- Collect the nav links, forms, and other content for toggling -->
-            <div class="collapse navbar-collapse navbar-right navbar-main-collapse">
-                <ul class="nav navbar-nav">
-                    <!-- Hidden li included to remove active class from about link when scrolled up past about section -->
-                    <li class="hidden">
-                        <a href="#page-top"></a>
-                    </li>
-                    <li>
-                        <a class="page-scroll" href="#about">About</a>
-                    </li>
-                    <li>
-                        <a class="page-scroll" href="#Projects">Projects</a>
-                    </li>
-                    <li>
-                        <a class="page-scroll" href="#contact">Contact</a>
-                    </li>
-                </ul>
-            </div>
-            <!-- /.navbar-collapse -->
+              <li class="nav-item">
+                  <a class="nav-link" href="#about">
+                    About
+                  </a>
+                </li>
+              <!-- <li class="nav-item">
+                <a class="nav-link" href="#feature">
+                  Features
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#team">
+                  Team
+                </a>
+              </li> -->
+              <li class="nav-item">
+                <a class="nav-link" href="#contact">
+                  Contact
+                </a>
+              </li>
+            </ul>
+          </div>
         </div>
-        <!-- /.container -->
-    </nav>
 
-    <!-- Intro Header -->
-    <header class="intro">
-        <div class="intro-body">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-8 col-md-offset-2">
-                        <h1 class="brand-heading">Kate Park</h1>
-                        <p class="intro-text">Aspiring Full Stack Developer
-                            <br>Currently studying at LearningFuze</p>
-                        <a href="#about" class="btn btn-circle page-scroll">
-                            <i class="fa fa-angle-double-down animated"></i>
-                        </a>
+        <!-- Mobile Menu Start -->
+        <ul class="mobile-menu navbar-nav">
+          <li>
+            <a class="page-scroll" href="#sliders">
+              Home
+            </a>
+          </li>
+          <li>
+            <a class="page-scroll" href="#portfolio">
+              Portfolio
+            </a>
+          </li>
+          <li>
+              <a class="page-scroll" href="#services">
+                Skills
+              </a>
+            </li>
+          <li>
+              <a class="page-scroll" href="#about">
+                About
+              </a>
+            </li>
+          <!-- <li>
+            <a class="page-scroll" href="#feature">
+              Features
+            </a>
+          </li>
+          <li>
+            <a class="page-scroll" href="#team">
+              Team
+            </a>
+          </li> -->
+          <li>
+            <a class="page-scroll" href="#contact">
+              Contact
+            </a>
+          </li>
+        </ul>
+        <!-- Mobile Menu End -->
+
+      </nav>
+      <!-- Navbar End -->
+
+      <!-- sliders -->
+      <div id="sliders">
+        <div class="full-width">
+          <!-- light slider -->
+          <div id="light-slider" class="carousel slide">
+            <div id="carousel-area">
+              <div id="carousel-slider" class="carousel slide" data-ride="carousel">
+                <ol class="carousel-indicators">
+                  <li data-target="#carousel-slider" data-slide-to="0" class="active"></li>
+                  <li data-target="#carousel-slider" data-slide-to="1"></li>
+                  <!-- <li data-target="#carousel-slider" data-slide-to="2"></li> -->
+                </ol>
+                <div class="carousel-inner" role="listbox">
+                  <div id="hero" class="carousel-item active">
+                    <img src="img/slider/bg-1.jpg" alt="">
+                    <div class="carousel-caption">
+                      <h3 class="slide-title animated fadeInDown"><span></span>Kate Park</h3>
+                      <h4 class="slide-text animated fadeIn"> Full Stack Web developer <br> </h4>
+                      <a href="#portfolio" class="btn btn-lg btn-common animated fadeInUp">Portfolio</a>
+                      <a href="#contact" class="btn btn-lg btn-border animated fadeInUp">Contact</a>
                     </div>
+                  </div>
+                  <div id="hero2" class="carousel-item hero2">
+                    <img src="img/slider/bg-2.jpg" alt="">
+                    <div class="carousel-caption">
+                      <h3 class="slide-title animated fadeInDown"><span></span>Hi, there!</h3>
+                      <h4 class="slide-text animated fadeIn">Check my work below!</h4>
+                      <a href="https://docdro.id/6lt33Cf" target="_blank" class="btn btn-lg btn-common animated fadeInUp">Resume</a>
+                    </div>
+                  </div>
+                  <!-- <div class="carousel-item">
+                    <img src="img/slider/bg-3.jpg" alt="">
+                    <div class="carousel-caption">
+                      <h3 class="slide-title animated fadeInDown"><span>100+</span> UI Blocks & Components</h3>
+                      <h5 class="slide-text animated fadeIn">Lorem ipsum dolor sit amet, consectetuer adipiscing elit<br> Curabitur ultricies nisi Nam eget dui. Etiam rhoncus</h5>
+                      <a href="#" class="btn btn-lg btn-border animated fadeInUp">Get Started</a>
+                      <a href="#" class="btn btn-lg btn-common animated fadeInUp">Download</a>
+                    </div>
+                  </div> -->
                 </div>
+                <a class="carousel-control-prev" href="#carousel-slider" role="button" data-slide="prev">
+                  <i class="fa fa-chevron-left"></i>
+                </a>
+                <a class="carousel-control-next" href="#carousel-slider" role="button" data-slide="next">
+                  <i class="fa fa-chevron-right"></i>
+                </a>
+              </div>
             </div>
+          </div>
         </div>
+      </div>
+      <!-- End sliders -->
+
     </header>
+    <!-- Header Area wrapper End -->
 
-    <!-- About Section -->
-    <section id="about" class="container content-section text-center">
-        <div class="row">
-            <div class="col-lg-8 col-lg-offset-2">
-                <h2>My Dev story</h2>
-                <p> I'm  <a href='#'>Kate Park</a>, an  <a href='#'>aspiring full-stack web developer</a> who loves to learn new things. For six years I've worked in an elementary school in South Korea. </p>
-                <p> Fortunately, I had the chance to teach coding in the classroom and it was so much fun. That positive experience has been a catalyst for me to get into the programming industry.</p>
-                <p>I truly enjoy that programming encourages you to keep learning and growing yourself.</p>
-                <p>It allows me to take advantage of my strengths in studying and problem solving, and apply those strengths directly into the development field.</p>
+    <!-- Portfolio Section -->
+    <section id="portfolio" class="section-padding">
+        <!-- Container Starts -->
+        <div class="container">
+          <div class="row">
+            <div class="col-md-12">
+              <h2 class="section-title wow fadeInDown animated" data-wow-delay="0.3s">Portfolio</h2>
             </div>
+          </div>
+          <div class="row">
+            <div class="col-lg-12 col-md-12">
+              <!-- Portfolio Controller/Buttons -->
+              <div class="controls text-center wow fadeInUpQuick" data-wow-delay=".6s">
+                <a class="filter active btn btn-common" data-filter="all">
+                  All 
+                </a>
+                <a class="filter btn btn-common" data-filter=".react">
+                  React.js 
+                </a>
+                <!-- <a class="filter btn btn-common" data-filter=".node">
+                  Node.js
+                </a> -->
+                <a class="filter btn btn-common" data-filter=".jquery">
+                  jQuery
+                </a>
+                <!-- <a class="filter btn btn-common" data-filter=".Native">
+                  React Native
+                </a>
+                <a class="filter btn btn-common" data-filter=".javaScript">
+                  JavaScript
+                </a> -->
+                <a class="filter btn btn-common" data-filter=".UI">
+                  UI Storybook
+                </a>
+              
+              </div>
+              <!-- Portfolio Controller/Buttons Ends-->
+            </div>
+  
+            <!-- Portfolio Recent Projects -->
+            <div id="portfolio" class="row wow fadeInUpQuick" data-wow-delay="0.8s">
+              <div class="col-lg-4 col-md-6 col-xs-12 mix react php">
+                <div class="portfolio-item">
+                  <div class="portfolio-img">
+                    <img src="img/portfolio/img1.png" alt="" />
+                  </div>
+                  <div class="portfoli-content">
+                    <div class="sup-desc-wrap">
+                      <div class="sup-desc-inner">
+                        <div class="sup-link">
+                          <a class="left-link" href="#"><i class="fa fa-link"></i></a>
+                        </div>
+                        <div class="sup-meta-wrap">
+                          <a class="sup-title" href="#">
+                            <h4>Tuur</h4>
+                          </a>
+                          <p class="sup-description">A two-sided matching market app aimed to connect local people for an authentic and cultural experience.</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- <div class="col-lg-4 col-md-6 col-xs-12 mix javaScript">
+                <div class="portfolio-item">
+                  <div class="portfolio-img">
+                    <img src="img/portfolio/img2.jpg" alt="" />
+                  </div>
+                  <div class="portfoli-content">
+                    <div class="sup-desc-wrap">
+                      <div class="sup-desc-inner">
+                        <div class="sup-link">
+                          <a class="left-link" href="#"><i class="fa fa-link"></i></a>
+                          <a class="right-link" href="#"><i class="fa fa-heart"></i></a>
+                        </div>
+                        <div class="sup-meta-wrap">
+                          <a class="sup-title" href="#">
+                            <h4>Ambiancer</h4>
+                          </a>
+                          <p class="sup-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente vel quisquam.</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div> -->
+              <div class="col-lg-4 col-md-6 col-xs-12 mix jquery">
+                <div class="portfolio-item">
+                  <div class="portfolio-img memory">
+                    <img src="img/portfolio/memory_match3.png" alt="" />
+                  </div>
+                  <div class="portfoli-content">
+                    <div class="sup-desc-wrap">
+                      <div class="sup-desc-inner">
+                        <div class="sup-link">
+                          <a class="left-link" href="https://kpopmemorymatch.netlify.com/" target="_blank"><i class="fa fa-link"></i></a>
+                        </div>
+                        <div class="sup-meta-wrap">
+                          <a class="sup-title" href="#">
+                            <h4>Memory match</h4>
+                          </a>
+                          <p class="sup-description">K-POP theme memory matching game where you need to match pairs of tiles!</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- <div class="col-lg-4 col-md-6 col-xs-12 mix react node">
+                <div class="portfolio-item">
+                  <div class="portfolio-img">
+                    <img src="img/portfolio/img4.jpg" alt="" />
+                  </div>
+                  <div class="portfoli-content">
+                    <div class="sup-desc-wrap">
+                      <div class="sup-desc-inner">
+                        <div class="sup-link">
+                          <a class="left-link" href="#"><i class="fa fa-link"></i></a>
+                          <a class="right-link" href="#"><i class="fa fa-heart"></i></a>
+                        </div>
+                        <div class="sup-meta-wrap">
+                          <a class="sup-title" href="#">
+                            <h4>Food tinder</h4>
+                          </a>
+                          <p class="sup-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente vel quisquam.</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div> -->
+              <div class="col-lg-4 col-md-6 col-xs-12 mix react UI node">
+                <div class="portfolio-item">
+                  <div class="portfolio-img">
+                    <img src="img/portfolio/img3.png" alt="" />
+                  </div>
+                  <div class="portfoli-content">
+                    <div class="sup-desc-wrap">
+                      <div class="sup-desc-inner">
+                        <div class="sup-link">
+                          <a class="left-link" href="https://uistorybook.netlify.com/?path=/story/welcome--to-storybook" target="_blank"><i class="fa fa-link"></i></a>
+                        </div>
+                        <div class="sup-meta-wrap">
+                          <a class="sup-title" href="https://uistorybook.netlify.com/?path=/story/welcome--to-storybook" target="_blank">
+                            <h4>UI Storybook</h4>
+                          </a>
+                          <p class="sup-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente vel quisquam.</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- <div class="col-lg-4 col-md-6 col-xs-12 mix Native">
+                <div class="portfolio-item">
+                  <div class="portfolio-img">
+                    <img src="img/portfolio/img6.jpg" alt="" />
+                  </div>
+                  <div class="portfoli-content">
+                    <div class="sup-desc-wrap">
+                      <div class="sup-desc-inner">
+                        <div class="sup-link">
+                          <a class="left-link" href="#"><i class="fa fa-link"></i></a>
+                          <a class="right-link" href="#"><i class="fa fa-heart"></i></a>
+                        </div>
+                        <div class="sup-meta-wrap">
+                          <a class="sup-title" href="#">
+                            <h4>Kawaii To do</h4>
+                          </a>
+                          <p class="sup-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente vel quisquam.</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div> -->
+            </div>
+          </div>
         </div>
-    </section>
+        <!-- Container Ends -->
+      </section>
+      <!-- Portfolio Section Ends -->
 
-    <!-- Download Section -->
-    <section id="Projects" class="content-section text-center">
-        <div class="download-section">
-            <div class="container">
-                <div class="row">
-                    <h2>Past Projects</h2>
-                    <img src="img/guessing1.PNG" alt="project">
-                    <img src="img/memorymatch.PNG" alt="project">
-                    <img src="img/Calc.PNG" alt="project">
-                    <img src="img/cnd.PNG" alt="project">
-                    <img src="img/cnd2.PNG" alt="project">
-                    <img src="img/ambiencer.PNG" alt="project">
-                    <a href="#" class="btn btn-default btn-lg showmore">Show more</a>
+    <!-- Services Section Start -->
+    <section id="services" class="section-padding">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <h2 class="section-title wow fadeInDown animated" data-wow-delay="0.3s">Skills</h2>
+          </div>
+        </div>
+        <div class="row">
+          <!-- Start Service Icon 1 -->
+          <div class="col-md-12 col-lg-12 col-xs-12 skills">
+            <div class="service-box">
+              <div class="inlinebox">
+                <img src="img/logo/javascript-original.svg" />
+                <h5 class="centerText">JavaScript</h5>
+              </div>
+              <div class="inlinebox">
+                  <img src="img/logo/html5-original.svg" />
+                <h5 class="centerText">HTML5</h5>
+              </div>
+              <div class="inlinebox">
+                  <img src="img/logo/css3-original.svg" />
+                <h5 class="centerText">CSS3</h5>
+              </div>
+              <div class="inlinebox">
+                  <img src="img/logo/react-original.svg" />
+                <h5 class="centerText">React.js</h5>
+              </div>
+              <div class="inlinebox">
+                <img src="img/logo/nodejs-original.svg" />               
+                <h5 class="centerText">Node.js</h5>
+              </div>
+              <div class="inlinebox">
+                <img src="img/logo/mysql-original.svg" />    
+                <h5 class="centerText">MySQL</h5>
+              </div>    
+              <div class="inlinebox">
+                <img src="img/logo/php.png" />                
+                <h5 class="centerText">PHP</h5>
+              </div>
+              <div class="inlinebox">
+                <img src="img/logo/graphql.png" />                
+                <h5 class="centerText">GraphQL</h5>
+              </div>
+              <div class="inlinebox">
+                <img src="img/logo/jquery-original.svg" />                
+                <h5 class="centerText">jQuery</h5>
+              </div>
+              <div class="inlinebox">
+                <img src="img/logo/git-original.svg" />                
+                <h5 class="centerText">Git</h5>
+              </div>
+              <div class="inlinebox">
+                <img src="img/logo/github-original.svg" />                
+                <h5 class="centerText">Github</h5>
+              </div>
+              <div class="inlinebox">
+                <img src="img/logo/postman-icon.svg" />                
+                <h5 class="centerText">Postman</h5>
+              </div>
+            
+            
+              <div class="inlinebox">
+                <img src="img/logo/bootstrap-plain.svg" />                
+                <h5 class="centerText">Bootstrap</h5>
+              </div>
+              <div class="inlinebox">
+                <img src="img/logo/emotion10.png" />                
+                <h5 class="centerText">emotion</h5>
+              </div>
+              <div class="inlinebox">
+                  <img src="img/logo/rally.png" />                
+                  <h5 class="centerText">Rally(Agile)</h5>
+                </div>
+                <div class="inlinebox">
+                  <img src="img/logo/amazonwebservices-original.svg" />                
+                  <h5 class="centerText">AWS</h5>
                 </div>
             </div>
+          </div>
+          <!-- End Service Icon 1 -->
         </div>
+      </div>
     </section>
+    <!-- Services Section End -->
 
-    <!-- Contact Section -->
-    <section id="contact" class="container content-section text-center">
-        <div class="row">
-            <div class="col-lg-8 col-lg-offset-2">
-                <h2>Contact</h2>
-                <p>Feel free to contact me, just say hello!</p>
-                <p></p>
-                <p><a href="mailto:rudhi1009@gmail.com">rudhi1009@gmail.com</a>
-                </p>
-                <ul class="list-inline banner-social-buttons">
-                    <li>
-                        <a href="#" class="btn btn-default btn-lg" target="_blank"><i class="fa fa-linkedin fa-fw"></i> <span class="network-name">Linkedin</span></a>
-                    </li>
-                    <li>
-                        <a href="https://github.com/katepark1009" class="btn btn-default btn-lg" target="_blank"><i class="fa fa-github fa-fw"></i> <span class="network-name">Github</span></a>
-                    </li>
-                    <li>
-                        <a href="https://plus.google.com/+Startbootstrap/posts" class="btn btn-default btn-lg" target="_blank"><i class="fa fa-file fa-fw"></i> <span class="network-name">Resume</span></a>
-                    </li>
-                </ul>
+     <!-- About Section Start -->
+     <div id="about" class="section-padding">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-3 col-md-6 col-xs-12 qqq">
+              <div class="col-md-12 justify">
+                <!-- <img class="me" src="img/about/img1.png" alt="">  -->
+                <h2 class="section-title wow fadeInDown animated" data-wow-delay="0.3s">My<br>Dev Story</h2>
+              </div>
             </div>
+            <div class="col-lg-3 col-md-6 col-xs-12">
+              <div class="about block text-center">
+                <div class="me">
+                  <img class="smallpic" src="img/about/img2.jpg" alt="">
+                </div>
+                <h5><a href="#about">Woman-in-tech Scholarship</a></h5>
+                <p>Kelley Blue Book's first<br> <em>"Women-in-Tech"</em> scholarship winner</p>
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-xs-12">
+              <div class="about block text-center">
+                <img class="smallpic" src="img/about/img3.png" alt="">
+                <h5><a href="#about">Software engineering intern</a></h5>
+                <p>As a member on KBB.com's engineering team, I worked in a dynamic and team-oriented environment and developed set of skills.</p>
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-xs-12">
+              <div class="about block text-center">
+                <img class="smallpic" src="img/about/img4.png" alt="">
+                <h5><a href="#about">Elementary school teacher</a></h5>
+                <p>Fortunately, I had the chance to teach coding in the classroom. <br>That positive experience has been a catalyst for me to get into the programming industry.</p>
+              </div>
+            </div>
+          </div>
         </div>
+      </div>
+      <!-- About Section End -->
+
+  
+    <!-- Contact Form Section Start -->
+    <section id="contact" class="contact-form section-padding">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <h2 class="section-title wow fadeInDown animated" data-wow-delay="0.3s">Contact</h2>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-8 col-md-6 col-xs-12">
+            <h3 class="title-head text-left">Get in touch</h3>
+            <form class="contact-form" data-toggle="validator">
+              <div class="row">
+                <div class="col-lg-4 col-md-12 col-xs-12">
+                  <div class="form-group">
+                    <i class="contact-icon fa fa-user"></i>
+                    <input type="text" class="form-control" id="name" placeholder="Full Name" required data-error="Please enter your name">
+                    <div class="help-block with-errors"></div>
+                  </div>
+                </div>
+                <div class="col-lg-4 col-md-12 col-xs-12">
+                  <div class="form-group">
+                    <i class="contact-icon fa fa-envelope-o"></i>
+                    <input type="email" class="form-control" id="email" placeholder="Email" required data-error="Please enter your email">
+                    <div class="help-block with-errors"></div>
+                  </div>
+                </div>
+                <div class="col-lg-4 col-md-12 col-xs-12">
+                  <div class="form-group">
+                    <i class="contact-icon fa fa-pencil-square-o"></i>
+                    <input type="text" class="form-control" id="subject" placeholder="Subject" required data-error="Please enter your Subject">
+                    <div class="help-block with-errors"></div>
+                  </div>
+                </div>
+                <div class="col-lg-12 col-md-12 col-xs-12">
+                  <textarea class="form-control" id="message" rows="4" placeholder="Message" required data-error="Please enter your message"></textarea>
+                  <div class="help-block with-errors"></div>
+                  <button type="submit" id="form-submit" class="btn btn-common btn-form-submit">Send Message</button>
+                  <div id="msgSubmit" class="h3 text-center hidden"></div>
+                  <div class="clearfix"></div>
+                </div>
+              </div>
+            </form>
+          </div>
+
+          <div class="col-lg-4 col-md-6 col-xs-12">
+            <h4 class="contact-info-title text-left">Contact Information</h4>
+            <div class="contact-info">
+              <address>
+              <i class="lni-map-marker icons cyan-color contact-info-icon"></i>
+              Orange County, CA
+            </address>
+              <div class="tel-info">
+                <!-- <a href="tel:1800452308"><i class="lni-mobile icons cyan-color contact-info-icon"></i>1800 452 308</a> -->
+                <a href="tel:+61(8)82343555"><i class="lni-phone icons cyan-color contact-info-icon"></i>+1 (714) 294 6064</a>
+              </div>
+              <a href="mailto:hello@spiritapp.com"><i class="lni-envelope icons cyan-color contact-info-icon"></i>rudhi1009@gmail.com</a>
+              <a href="#"><i class="lni-tab icons cyan-color contact-info-icon"></i>www.katepark.net</a>
+              <ul class="social-links">
+                <!-- <li>
+                  <a href="#" class="fa fa-github icon-round"></a>
+                </li> -->
+                <!-- <li>
+                  <a href="#" class="fa fa-twitter"></a>
+                </li>
+                <li>
+                  <a href="#" class="fa fa-instagram"></a>
+                </li> -->
+                <!-- <li>
+                  <a href="#" class="fa fa-linkedin"></a>
+                </li> -->
+                <div class="social-footer">
+                    <a href="#"><i class="fa fa-envelope icon-round"></i></a>
+                    <a href="https://github.com/katepark1009"><i class="fa fa-github icon-round"></i></a>
+                    <a href="https://www.linkedin.com/in/kyeong-hui-park"><i class="fa fa-linkedin icon-round"></i></a>
+                    <!-- <a href="#"><i class="fa fa-google-plus icon-round"></i></a> -->
+                    <a href="#" ><i class="icon-round resume">Resume</i></a>
+                  </div>
+                
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
     </section>
+    <!-- Contact Form Section End -->
 
-    <!-- Map Section -->
-    <!-- <div id="map"></div> -->
+	  <!-- Footer Section -->
+    <footer class="footer">
+ 
 
-    <!-- Footer -->
-    <footer>
-        <div class="container text-center">
-            <p>Copyright &copy; katepark.net 2019</p>
+      <!-- Copyright -->
+      <div id="copyright">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-6 col-md-6 col-xs-12">
+              <p class="copyright-text">All copyrights reserved © Kate Park
+              </p>
+            </div>
+            <div class="col-lg-6 col-md-6 col-xs-12">
+              <ul class="nav nav-inline  justify-content-end ">
+                <!-- <li class="nav-item">
+                  <a class="nav-link active" href="#">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Sitemap</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Privacy Policy</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Terms of services</a>
+                </li> -->
+              </ul>
+            </div>
+          </div>
         </div>
+      </div>
+      <!-- Copyright  End-->
+
     </footer>
+    <!-- Footer Section End-->
 
-    <!-- jQuery -->
-    <script src="vendor/jquery/jquery.js"></script>
-
-    <!-- Bootstrap Core JavaScript -->
-    <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
-
-    <!-- Plugin JavaScript -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
-
-    <!-- Google Maps API Key - Use your own API key to enable the map feature. More information on the Google Maps API can be found at https://developers.google.com/maps/ -->
-    <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=YOUR_KEY_HERE&sensor=false"></script>
-
-    <!-- Theme JavaScript -->
-    <script src="js/grayscale.min.js"></script>
-
-</body>
-
+    <!-- Go to Top Link -->
+    <a href="#" class="back-to-top">
+      <i class="fa fa-arrow-up"></i>
+    </a>
+    
+    <!-- Preloader -->
+    <div id="preloader">
+      <div class="loader" id="loader-1"></div>
+    </div>
+    <!-- End Preloader -->
+    
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="js/jquery-min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/jquery.mixitup.js"></script>
+    <script src="js/jquery.countTo.js"></script>
+    <script src="js/jquery.nav.js"></script>
+    <script src="js/scrolling-nav.js"></script>
+    <script src="js/jquery.easing.min.js"></script>
+    <script src="js/jquery.slicknav.js"></script>
+    <script src="js/form-validator.min.js"></script>
+    <script src="js/contact-form-script.js"></script>
+    <script src="js/main.js"></script>
+      
+  </body>
 </html>
